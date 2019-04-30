@@ -1,0 +1,114 @@
+#colSimbolo{
+    position: relative;
+    top: 60px;
+    z-index: 10;
+}
+
+#ulFooter{
+    background-color: #FBFAF9;
+    padding-top: 71px;
+    font-size: 16px;
+    color: #4A4A4A;
+    width: 100%;
+}
+
+#ulFooter li{
+    margin: 0px;
+}
+
+#ulFooter a{
+    padding-left: 0;
+}
+
+@media (min-width: 768px) {
+    #ulFooter .text-center{
+        text-align: left !important;
+    }
+    .collapse{
+        display: flex !important;
+    }
+    
+}
+
+.liFooter{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 10px;
+    color: #585451;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#footerCopy{
+    color: #9B9B9B;
+    font-size: 13px;
+    background-color: #ECEAE7;
+    text-align: center;
+}
+
+.tituloFooter{
+    border-bottom: 1px dotted #D3D3D3;
+}
+
+#ulFooter hr:last-child{
+    padding-bottom: 31px !important;
+}
+
+
+/*Información*/
+.tlfFooter{
+    color: #585451;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*Categorías & Marcas*/
+.ulFooterSecundario{
+    background-color: inherit;
+}
+
+.ulFooterSecundario li{
+    width: 100%;
+}
+
+.ulFooterSecundario li a{
+    padding: 0;
+    color: #4A4A4A;
+    font-weight: normal;
+    font-size: 16px;
+    padding-bottom: 7px; 
+}
+
+
+/*Redes y pago*/
+#desplegableSigue img{
+    width: 34px;
+    height: 34px;
+    margin-top: 18px;
+    margin-left: 21px;
+}
+
+#desplegablePago a{
+    margin-top: 11px;
+}
+
+#desplegablePago img, #desplegableSigue img{
+    transition: all 0.3s;
+}
+
+#desplegablePago img:hover, #desplegableSigue img:hover{
+    opacity: 0.5;
+}
+
+
+/*Rotar flecha*/
+.rotateDown{
+    transition: all 0.3s;
+    transform: rotate(0deg);
+}
+
+.rotateUp{
+    transition: all 0.3s;
+    transform: rotate(180deg);
+}

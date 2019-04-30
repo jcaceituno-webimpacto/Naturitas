@@ -1,0 +1,82 @@
+/*Banner rebajas*/
+.tituloCar{
+    color: #4A4A4A;	
+    font-family: "Arial";	
+    font-size: 2.25rem;	
+    font-weight: bold;
+}
+
+.subtituloCar{
+    color: #4A4A4A;	
+    font-family: "Arial";	
+    font-size: 1rem;
+}
+
+.compra{
+    border-radius: 6px;	
+    background-color: #5CB8A3 !important;	
+    border-color: #5CB8A3 !important;
+    box-shadow: 0 2px 0 0 #529888;
+    font-size: 14px;
+    color: white;
+}
+
+
+#banner{
+    height: 400px;
+    background-image: url("/img/car2.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#miSlider{
+    height: 400px;
+}
+
+.carousel-item > img { 
+    width: 100% !important; 
+  }
+
+#colBanner{
+    margin-top: 110px;
+}
+
+
+/*Botón ofertas y chat*/
+#bOfertas{
+    border: 2px solid #6BB7A6;	
+    border-radius: 6px;	
+    color: #6BB7A6;
+    background-color: white !important;
+}
+
+#chat{
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 32px;
+    background-color: #5CB8A3;	
+    box-shadow: 0 0 4px 0 rgba(109,109,109,0.5);
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+/*Banner info*/
+.bannerInfo svg{
+    color: #D2CBB8;
+    font-size: 40px;
+}
+
+.tituloBanerInfo{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.subtituloBannerInfo{
+    color: #616161;
+    font-size: 13px;
+}
+
